@@ -1,0 +1,114 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAF3DD;
+}
+
+h1 {
+    background-color: #D6E5E3;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#newgame {
+    background-color: #517664;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 15px;
+
+}
+
+#newgme {
+    margin-top: 3rem;
+    height: 4rem;
+    display: flex;
+    /* bg clor not given so noneed to do inline*/
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#newgame:hover {
+    cursor: pointer;
+    border: 3px solid green;
+}
+
+
+.container {
+
+    margin-top: 2rem;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+
+}
+
+
+
+img:hover {
+    margin: 5px;
+    /*img are at center and margin is equal  on each side*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+
+
+
+.scorecontainer {
+
+    margin-top: 30px;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+
+
+}
+
+
+#userscore,
+#compscore {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+
+#rslt {
+    margin-top: 2.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    display: flex;
+    /* bg clor not given so noneed to do inline*/
+    justify-content: center;
+    align-items: center;
+}
+
+
+#result {
+
+    background-color: #517664;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 15px;
+}
