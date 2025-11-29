@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Rock Papper Scissors</h1>
+    <div id="newgme"><button id="newgame">New Game!</button></div>
+
+
+    <div class="container">
+
+        <div id="rock" class="rps"> <button> <img src="Assets/rock.png" alt="Rock" height="100px"></button> </div>
+
+        <div id="scissors" class="rps">
+            <button><img src="Assets/scissors.png" alt="Scissors" height="100px"></button>
+        </div>
+
+        <div id="paper" class="rps">
+            <button> <img src="Assets/paper.png" alt="Paper" height="100px"></button>
+        </div>
+    </div>
+
+    <div class="scorecontainer">
+        <div class="score">
+            <p id="userscore">0</p>
+            <p>You</p>
+        </div>
+
+
+        <div class="score">
+            <p id="compscore">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <div id="rslt">
+        <button id="result">Pick your move!</button>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
